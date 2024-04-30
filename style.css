@@ -33,7 +33,7 @@
   }
   
   :root {
-    --lerp-0: 1;
+    --lerp-0: 4;
     --lerp-1: 0.5787037;
     --lerp-2: 0.2962963;
     --lerp-3: 0.125;
@@ -47,7 +47,7 @@
   }
   
   li {
-    flex: calc(0.1 + (var(--active-lerp, 0) * 1));
+    flex: calc(0.6 + (var(--active-lerp, 0) * 1));
     transition: flex 0.2s ease;
   }
   
